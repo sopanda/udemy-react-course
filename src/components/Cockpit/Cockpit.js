@@ -22,9 +22,6 @@ const cockpit = (props) => {
         <div className= {classes.Cockpit}>
             <h2> { props.appTitle } </h2> 
             <p className = {assignedClasses.join(' ')}>it 's not me, it's you; 3</p>
-
-            {console.log(classes)}
-
             <button 
             className = {btnClass}
             onClick = {props.clicked}>
